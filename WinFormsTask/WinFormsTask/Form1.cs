@@ -67,58 +67,65 @@ namespace WinFormsTask
 
             // Email validation pattern
             string emailPattern = @"^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$";
-
-            try
+            if (validationQuery != "1")
             {
-                // Validate email format
-                if (!Regex.IsMatch(email, emailPattern))
+                MessageBox.Show("Dublicate email or null");
+            }
+            else
+            {
+                try
                 {
-                    MessageBox.Show("Invalid email format");
-                    return; // Exit the method if email format is invalid
-                }
-
-                using (SqlConnection connection = new SqlConnection(connectionString))
-                {
-                    connection.Open();
-
-                    // Check if email already exists
-                    using (SqlCommand validationCommand = new SqlCommand(validationQuery, connection))
+                    // Validate email format
+                    if (!Regex.IsMatch(email, emailPattern))
                     {
-                        validationCommand.Parameters.AddWithValue("@Email", email);
-
-                        int emailCount = (int)validationCommand.ExecuteScalar();
-
-                        if (emailCount > 0)
-                        {
-                            MessageBox.Show("Duplicate email found");
-                            return; // Exit the method to prevent saving duplicate email
-                        }
+                        MessageBox.Show("Invalid email format");
+                        return;
                     }
 
-                    // Insert new record
-                    using (SqlCommand insertCommand = new SqlCommand(insertQuery, connection))
+                    using (SqlConnection connection = new SqlConnection(connectionString))
                     {
-                        insertCommand.Parameters.AddWithValue("@Name", name);
-                        insertCommand.Parameters.AddWithValue("@Email", email);
-                        insertCommand.Parameters.AddWithValue("@Contact", contact);
+                        connection.Open();
 
-                        int rowsAffected = insertCommand.ExecuteNonQuery();
-
-                        if (rowsAffected > 0)
+                        // Check if email already exists
+                        using (SqlCommand validationCommand = new SqlCommand(validationQuery, connection))
                         {
-                            MessageBox.Show("Data saved successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            validationCommand.Parameters.AddWithValue("@Email", email);
+
+                            int emailCount = (int)validationCommand.ExecuteScalar();
+
+                            if (emailCount > 0)
+                            {
+                                MessageBox.Show("Duplicate email found");
+                                return;
+                            }
                         }
-                        else
+
+                        // Insert new record
+                        using (SqlCommand insertCommand = new SqlCommand(insertQuery, connection))
                         {
-                            MessageBox.Show("Data could not be saved", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            insertCommand.Parameters.AddWithValue("@Name", name);
+                            insertCommand.Parameters.AddWithValue("@Email", email);
+                            insertCommand.Parameters.AddWithValue("@Contact", contact);
+
+                            int rowsAffected = insertCommand.ExecuteNonQuery();
+
+                            if (rowsAffected > 0)
+                            {
+                                MessageBox.Show("Data saved successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            }
+                            else
+                            {
+                                MessageBox.Show("Data could not be saved", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            }
                         }
                     }
                 }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error saving data: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error saving data: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+           
         }
 
 

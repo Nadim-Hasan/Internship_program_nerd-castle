@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x5E6SWHhY6icwOCGyrZjNm99XXTlJcSAS2myuvzPrj6fTqEi91GnnLZuX7+eohUAhYIw1bQFO0YoSyrYNfnfrg==",
+  "dgSpecHash": "wUvwHI0wHO/P5Rte/5KpUXasuHfDmlZo09dvI3BpHBYFsP/+bVs4T3hH+gOTq623GMqA34xz486O5xtaBdWnNg==",
   "success": true,
-  "projectFilePath": "E:\\WinFormsTask\\WinFormsTask\\WinFormsTask.csproj",
+  "projectFilePath": "E:\\InternShip_works\\WinFormsTask\\WinFormsTask\\WinFormsTask.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

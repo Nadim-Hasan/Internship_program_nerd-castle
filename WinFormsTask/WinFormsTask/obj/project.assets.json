@@ -1007,11 +1007,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\WinFormsTask\\WinFormsTask\\WinFormsTask.csproj",
+      "projectUniqueName": "E:\\InternShip_works\\WinFormsTask\\WinFormsTask\\WinFormsTask.csproj",
       "projectName": "WinFormsTask",
-      "projectPath": "E:\\WinFormsTask\\WinFormsTask\\WinFormsTask.csproj",
+      "projectPath": "E:\\InternShip_works\\WinFormsTask\\WinFormsTask\\WinFormsTask.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "E:\\WinFormsTask\\WinFormsTask\\obj\\",
+      "outputPath": "E:\\InternShip_works\\WinFormsTask\\WinFormsTask\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
