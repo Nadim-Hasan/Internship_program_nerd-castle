@@ -1,0 +1,15 @@
+E:\InternShip_works\OOPBasics\bin\Debug\net6.0\OOPBasics.exe
+E:\InternShip_works\OOPBasics\bin\Debug\net6.0\OOPBasics.deps.json
+E:\InternShip_works\OOPBasics\bin\Debug\net6.0\OOPBasics.runtimeconfig.json
+E:\InternShip_works\OOPBasics\bin\Debug\net6.0\OOPBasics.dll
+E:\InternShip_works\OOPBasics\bin\Debug\net6.0\OOPBasics.pdb
+E:\InternShip_works\OOPBasics\obj\Debug\net6.0\OOPBasics.csproj.AssemblyReference.cache
+E:\InternShip_works\OOPBasics\obj\Debug\net6.0\OOPBasics.GeneratedMSBuildEditorConfig.editorconfig
+E:\InternShip_works\OOPBasics\obj\Debug\net6.0\OOPBasics.AssemblyInfoInputs.cache
+E:\InternShip_works\OOPBasics\obj\Debug\net6.0\OOPBasics.AssemblyInfo.cs
+E:\InternShip_works\OOPBasics\obj\Debug\net6.0\OOPBasics.csproj.CoreCompileInputs.cache
+E:\InternShip_works\OOPBasics\obj\Debug\net6.0\OOPBasics.dll
+E:\InternShip_works\OOPBasics\obj\Debug\net6.0\refint\OOPBasics.dll
+E:\InternShip_works\OOPBasics\obj\Debug\net6.0\OOPBasics.pdb
+E:\InternShip_works\OOPBasics\obj\Debug\net6.0\OOPBasics.genruntimeconfig.cache
+E:\InternShip_works\OOPBasics\obj\Debug\net6.0\ref\OOPBasics.dll
