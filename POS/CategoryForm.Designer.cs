@@ -158,6 +158,7 @@
             button7.TabIndex = 11;
             button7.Text = "Add Category";
             button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
             // 
             // label6
             // 
@@ -211,7 +212,7 @@
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(346, 292);
+            dataGridView1.Size = new Size(359, 292);
             dataGridView1.TabIndex = 20;
             // 
             // CategoryForm

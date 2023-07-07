@@ -44,15 +44,16 @@ namespace POS
             string name = ProductNameTxt.Text;
             string price = ProductPriceTxt.Text;
             double vat = Convert.ToDouble(ProductVatTxt.Text);
-            bool discountAllow = ;
-            int categoryID;
-            string description;
-            string createdBy;
-            DateTime createdDate;
-            string updatedBy;
+            bool discountAllow = Convert.ToBoolean(ProductDiscountTxt.Text);
+            //int categoryID= Convert.ToInt32(ProductCate);
+            //string description;
+            string createdBy= ProductCreatedByTxt.Text;
+            DateTime createdDate= ProductCreatedDateTxt.Value;
+            string updatedBy= ProductUpdatedByTxt.Text;
 
-            DateTime updatedDate;
-            bool isdelete;
+            DateTime updatedDate = ProductUpdatedByTxt.Value;
+            //bool isdelete = Product;
+
 
         }
     }
