@@ -1,0 +1,6 @@
+POS
+
+* Product
+* Stock
+* Sale
+* Customer

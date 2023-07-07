@@ -1,0 +1,15 @@
+E:\InternShip_works\StudentCourse\bin\Debug\net6.0\StudentCourse.exe
+E:\InternShip_works\StudentCourse\bin\Debug\net6.0\StudentCourse.deps.json
+E:\InternShip_works\StudentCourse\bin\Debug\net6.0\StudentCourse.runtimeconfig.json
+E:\InternShip_works\StudentCourse\bin\Debug\net6.0\StudentCourse.dll
+E:\InternShip_works\StudentCourse\bin\Debug\net6.0\StudentCourse.pdb
+E:\InternShip_works\StudentCourse\obj\Debug\net6.0\StudentCourse.csproj.AssemblyReference.cache
+E:\InternShip_works\StudentCourse\obj\Debug\net6.0\StudentCourse.GeneratedMSBuildEditorConfig.editorconfig
+E:\InternShip_works\StudentCourse\obj\Debug\net6.0\StudentCourse.AssemblyInfoInputs.cache
+E:\InternShip_works\StudentCourse\obj\Debug\net6.0\StudentCourse.AssemblyInfo.cs
+E:\InternShip_works\StudentCourse\obj\Debug\net6.0\StudentCourse.csproj.CoreCompileInputs.cache
+E:\InternShip_works\StudentCourse\obj\Debug\net6.0\StudentCourse.dll
+E:\InternShip_works\StudentCourse\obj\Debug\net6.0\refint\StudentCourse.dll
+E:\InternShip_works\StudentCourse\obj\Debug\net6.0\StudentCourse.pdb
+E:\InternShip_works\StudentCourse\obj\Debug\net6.0\StudentCourse.genruntimeconfig.cache
+E:\InternShip_works\StudentCourse\obj\Debug\net6.0\ref\StudentCourse.dll
