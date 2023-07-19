@@ -1,0 +1,15 @@
+E:\InternShip_works\E-Commarce\BussinessLogicLayer\bin\Debug\net7.0\BussinessLogicLayer.deps.json
+E:\InternShip_works\E-Commarce\BussinessLogicLayer\bin\Debug\net7.0\BussinessLogicLayer.dll
+E:\InternShip_works\E-Commarce\BussinessLogicLayer\bin\Debug\net7.0\BussinessLogicLayer.pdb
+E:\InternShip_works\E-Commarce\BussinessLogicLayer\bin\Debug\net7.0\DataAccessLayer.dll
+E:\InternShip_works\E-Commarce\BussinessLogicLayer\bin\Debug\net7.0\DataAccessLayer.pdb
+E:\InternShip_works\E-Commarce\BussinessLogicLayer\obj\Debug\net7.0\BussinessLogicLayer.csproj.AssemblyReference.cache
+E:\InternShip_works\E-Commarce\BussinessLogicLayer\obj\Debug\net7.0\BussinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\InternShip_works\E-Commarce\BussinessLogicLayer\obj\Debug\net7.0\BussinessLogicLayer.AssemblyInfoInputs.cache
+E:\InternShip_works\E-Commarce\BussinessLogicLayer\obj\Debug\net7.0\BussinessLogicLayer.AssemblyInfo.cs
+E:\InternShip_works\E-Commarce\BussinessLogicLayer\obj\Debug\net7.0\BussinessLogicLayer.csproj.CoreCompileInputs.cache
+E:\InternShip_works\E-Commarce\BussinessLogicLayer\obj\Debug\net7.0\BussinessLogicLayer.csproj.CopyComplete
+E:\InternShip_works\E-Commarce\BussinessLogicLayer\obj\Debug\net7.0\BussinessLogicLayer.dll
+E:\InternShip_works\E-Commarce\BussinessLogicLayer\obj\Debug\net7.0\refint\BussinessLogicLayer.dll
+E:\InternShip_works\E-Commarce\BussinessLogicLayer\obj\Debug\net7.0\BussinessLogicLayer.pdb
+E:\InternShip_works\E-Commarce\BussinessLogicLayer\obj\Debug\net7.0\ref\BussinessLogicLayer.dll
